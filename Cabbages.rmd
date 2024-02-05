@@ -56,6 +56,9 @@ This boxplot shows that C52 has more cultivation than C39.
 favstats(VitC~Cult,data=veggy)
 ```
 
+
+This table shows that the average number of cultivation done by c39 was 51, mean umber of cultivation done for c52 was 64.
+
 ## Inferential Results
 
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
@@ -66,7 +69,13 @@ t.test(VitC~Cult,data=veggy)
 ```
 
 
-The P value .000000003405 < 0.05. I reject the hypothesis. 
+The P value is .00000003405 < 0.05. I reject the $H_0$. 
+
+
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+
+
+In conclusion per the graphical and numerical graph indicates that there is a difference and the p_value is .00000003405 < 0.05 and therefore I reject the $H_0$. The difference is c52 has more cultivation than C39 for VitC. 
