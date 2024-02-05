@@ -29,8 +29,6 @@ predict vitC based on cultivation method. VitC is numerical, Cult is categorical
 
 
 
-
-
 # Results
 
 <!--Divide this section into two sub-sections:  One for your descriptive  results and one for your inferential results.!-->
@@ -46,7 +44,7 @@ predict vitC based on cultivation method. VitC is numerical, Cult is categorical
 plot(VitC~Cult,data=veggy)
 ```
 
-
+This boxplot shows that C52 has more cultivation than C39.
 
 
 
